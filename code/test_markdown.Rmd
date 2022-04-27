@@ -5,8 +5,8 @@ date: "4/27/2022"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r setup, include=TRUE, message = FALSE, warning = FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 
 library(tidyverse)
 library(here)
@@ -31,6 +31,11 @@ ggplot(data = cars) +
 **Figure 1.** This silly figure of cars stuff
 
 
+```{r}
+# read in the stream data 
+stream_dat <- read_csv(here("data", "sbc_lter_registered_stream_chemistry.csv"))
+
+```
 
 
 
