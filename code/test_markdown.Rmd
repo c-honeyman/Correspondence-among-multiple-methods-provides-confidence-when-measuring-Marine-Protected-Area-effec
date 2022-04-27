@@ -16,9 +16,19 @@ library(here)
 
 
 ```{r}
-# new code chunk 
+# import cars data 
+cars <- cars
 
 ```
+
+```{r}
+# data visualization
+ggplot(data = cars) +
+  geom_point(aes(x = speed, y = dist))
+
+```
+
+**Figure 1.** This silly figure of cars stuff
 
 
 
