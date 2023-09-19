@@ -16,7 +16,7 @@ This repository houses data and code used for anaylses in the publication "Corre
     - MPA_Comp_NMDS.R - nMDS, SIMPER, and ANOSIM analyses on range standardized density data
     - Response_Ratio_calculations.R - Calculates response ratios from island MPA year summaries
   
-Each R script is housed with the code required to run it and any data exports in it's own path:
+Each folder is housed with the code required to run it and any data exports it creates:
     -Data Standardization
     -Diversity and Richness
     -Forest Plot
