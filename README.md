@@ -15,3 +15,10 @@ This repository houses data and code used for anaylses in the publication "Corre
     - Presence_and_absence_Frequency_of_occurence.R - creates a presence/absence dataset from density_data.csv and calculates the frequency of occurence per island per method for clarification of forest plots
     - MPA_Comp_NMDS.R - nMDS, SIMPER, and ANOSIM analyses on range standardized density data
     - Response_Ratio_calculations.R - Calculates response ratios from island MPA year summaries
+  
+Each R script is housed with the code required to run it and any data exports in it's own path:
+    -Data Standardization
+    -Diversity and Richness
+    -Forest Plot
+    -nMDS
+    -Response Ratio Calculations
